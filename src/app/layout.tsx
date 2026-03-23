@@ -92,6 +92,18 @@ export default async function RootLayout({ children }: RootLayoutProps) {
             `,
           }}
         />
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MX2Z660VPB"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag(\'js\', new Date());
+              gtag(\'config\', \'G-MX2Z660VPB\');
+            `,
+          }}
+        />
       </head>
       <ThemeProvider>
         <ToastProvider>

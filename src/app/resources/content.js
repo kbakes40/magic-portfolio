@@ -19,7 +19,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:info@davincidynamics.ai",
+    link: "mailto:kevin@davincidynamics.ai",
   },
   {
     name: "Phone",
@@ -95,7 +95,7 @@ const about = {
     experiences: [
       {
         company: "WiFi Kings",
-        timeframe: "2021 – 2025",
+        timeframe: "2024 – Present"
         role: "Founder & CEO",
         achievements: [
           <>
